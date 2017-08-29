@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	font-family: "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: #f5f5f5;
+	color: #333;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#header {
+	width: 100%;
+	height: 10px;
+	float: fixed;
+}
+#main {
+	width: 70%;
+	height: calc(100% - 30px);
+	float: right;
+	box-sizing: border-box;
+}
+#side {
+	width: 30%;
+	height: calc(100% - 30px);
+	float: left; 
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+#footer {
+	clear: both;
+	width: 100%;
+	height: 20px;
+	float: fixed;
+}
+
+.side_contents_title {
+	margin: 0px 0px 0px 0px;
+	background-color: #000000;
+	color: #fff;
+	/* 枠線  */
+	box-sizing: border-box;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #ccc;
+}
+
+.side_contents {
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	/* 枠線  */
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #ccc;
+}
+
+/* table */
+table {
+	/*　tableの隙間をなくす */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table th, table .th, table.cap_ttl caption {
+	background-color: #c0ebff;
+	border-color: #84cbd4;
+	border-style: solid;
+	padding: 5px 7px;
+	border-width: 1px 1px 1px 1px;
+	text-align: left;
+}
+table td, table .td {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 1px 1px 0px;
+	padding: 5px 7px;
+}
+/* 各行の背景の設定 */
+.table01 tr.bg_even {
+	background: #f2f2f2;
+}
+
+.table01 tr.bg_odd {
+	background: #fff;
+}
+
+/* select */
+select {
+	padding: 0 0 0 10px;
+}
+
+/* width */
+input.width_4em, select.width_4em {
+	width: 4em;
+}
+input.width_5em, select.width_5em {
+	width: 5em;
+}
+input.width_7em, select.width_7em {
+	width: 7em;
+}
+input.width_10em, select.width_10em {
+	width: 10em;
+}
+
+#drawfield_wrap {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+#drawfield {
+
+}
